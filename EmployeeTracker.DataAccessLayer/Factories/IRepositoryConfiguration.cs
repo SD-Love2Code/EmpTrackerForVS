@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EmployeeTracker.DataAccessLayer
+namespace EmployeeTracker.DataAccessLayer.Factories
 {
-    public class Class1
+    public interface IRepositoryConfiguration
     {
+        string Connection { get; }
     }
 }
